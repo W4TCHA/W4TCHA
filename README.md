@@ -1,16 +1,14 @@
-## Hi there 👋
+# W4CHA
+
+𝘿𝙧𝙚𝙖𝙢.𝘾𝙤𝙙𝙚.𝙀𝙫𝙤𝙡𝙫𝙚.
 
 
-**W4TCHA/W4TCHA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
+```text
+╔══════════════════════════════════╗
+║         SYSTEM ONLINE            ║
+║                                  ║
+║   USER     : W4TCHA              ║
+║   STATUS   : LEARNING            ║
+║   MISSION  : CREATE              ║
+║   FUTURE   : UNDEFINED           ║
+╚══════════════════════════════════╝
