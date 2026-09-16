@@ -10,32 +10,64 @@
             text-align: center;
             padding: 20px;
             color: #333;
+            background-color: #fafafa;
         }
         .header-title {
-            color: #0066cc;
+            color: #222;
             font-size: 28px;
             font-weight: bold;
+            margin-bottom: 20px;
         }
         .profile-img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: 4px solid #0066cc;
+            border: 4px solid #222;
             object-fit: cover;
             margin: 20px auto;
         }
         h1 {
             font-size: 24px;
             margin-top: 10px;
+            color: #222;
         }
         p {
             font-size: 16px;
             margin: 5px 0;
         }
-        .bio {
+        .bio-top {
             font-style: italic;
             color: #666;
             margin-top: 15px;
+        }
+        .about-container {
+            text-align: left;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .about-title {
+            font-size: 20px;
+            color: #222;
+            border-bottom: 2px solid #222;
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .info-block {
+            margin-bottom: 15px;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #444;
+            display: block;
+            margin-bottom: 2px;
+        }
+        .info-text {
+            color: #666;
         }
     </style>
 </head>
@@ -43,10 +75,8 @@
 
     <!-- ชื่อหัวข้อด้านบนสุด -->
     <div class="header-title">W4TCHA</div>
-    
-    <p style="text-align: left; color: #666;">Markdown</p>
 
-    <!-- รูปโปรไฟล์ (คุณสามารถเปลี่ยน url รูปภาพในเครื่องหมายคำพูดได้ในภายหลัง) -->
+    <!-- รูปโปรไฟล์ Eren -->
     <img src="3fdd5bebeeec8b67bb24a53a083811d8.jpg" alt="Profile Image" class="profile-img">
 
     <!-- ข้อความทักทายและชื่อ -->
@@ -55,12 +85,35 @@
     <!-- ตำแหน่งหรือสถานะ -->
     <p><strong>Computer Engineering Student (Year 1)</strong></p>
 
-    <!-- คำคมหรือสโลแกน -->
-    <p class="bio">"Turning coffee into clean code & scalable systems."</p>
+    <!-- คำคมย่อยด้านบน -->
+    <p class="bio-top">"Turning coffee into clean code & scalable systems."</p>
 
-    <hr style="border: 0; border-top: 1px solid #ccc; margin: 30px 0;">
+    <hr style="border: 0; border-top: 1px solid #ddd; margin: 30px 0;">
     
-    <p style="text-align: left;">🙋‍♂️ About Me</p>
+    <!-- กล่องข้อมูล About Me สไตล์แบบในรูปตัวอย่าง -->
+    <div class="about-container">
+        <h2 class="about-title">🙋‍♂️ About Me</h2>
+        
+        <div class="info-block">
+            <span class="info-label">📝 Bio :</span>
+            <span class="info-text">Dedicated to learning software development, engineering principles, and building cool things for users everywhere.</span>
+        </div>
+
+        <div class="info-block">
+            <span class="info-label">🎯 Tagline :</span>
+            <span class="info-text">Future Computer Engineer / Developer</span>
+        </div>
+
+        <div class="info-block">
+            <span class="info-label">📚 Current Learning :</span>
+            <span class="info-text">C, C++, Python, HTML, CSS, and Web Development</span>
+        </div>
+
+        <div class="info-block">
+            <span class="info-label">📌 Status :</span>
+            <span class="info-text">Tried to do better... 🚀</span>
+        </div>
+    </div>
 
 </body>
 </html>
